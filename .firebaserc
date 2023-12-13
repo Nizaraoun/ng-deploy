@@ -1,8 +1,0 @@
-{
-  "projects": {
-    "default": "gaming-zz",
-    "dist/Gamingzone": "gaming-zz"
-  },
-  "targets": {},
-  "etags": {}
-}
