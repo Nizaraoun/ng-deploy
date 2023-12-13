@@ -1,0 +1,70 @@
+  <div class="div-home">
+      <div class="div-txt">
+          <h1>PS4 V2 <br> DualShock 4</h1>
+          <h4>wireless controller for playStation 4 <br>(compatibilityCentric) <br> <br><h2>200DT</h2></h4>
+          <button> BUY NOW <i class="fas fa-arrow-right"></i> </button>
+      </div>
+      <img src="assets/images/manette.png" class="image">
+  </div>
+ 
+<div class="titlediv">  <h3><span>|</span>Currently Trending Games</h3>
+    <button class="btn btn-primary">View All</button>
+</div>
+
+
+  <mat-grid-list cols="5"  gutterSize="20"   class="responsive-grid">
+      <mat-grid-tile *ngFor="let tile of tiles1">
+        
+     <img src="assets/images/{{tile.text}}.jpg" alt="Clickable Image" (click)="onImageClick('{{tile.text}}')" class="imagelist">
+       
+      </mat-grid-tile>
+     
+
+  </mat-grid-list>
+ <h3><span>|</span> Gaming Product</h3>
+<div class="div-choix">
+    <a href=""> New Arrival</a>
+    <a href=""> Best seller</a>
+    <a href="">Featured</a>
+    <a href="">Special Offer</a>
+
+</div>
+  <mat-grid-list cols="6" gutterSize="20" class="responsive-grid">
+      
+    <mat-grid-tile *ngFor="let tile of tiles2">
+        <img src="assets/images/{{tile.text}}.png" alt="Clickable Image" (click)="onImageClick('{{tile.text}}')" class="imagelist">
+    </mat-grid-tile><mat-grid-tile *ngFor="let tile of tiles2">
+        <img src="assets/images/{{tile.text}}.png" alt="Clickable Image" (click)="onImageClick('{{tile.text}}')" class="imagelist">
+    </mat-grid-tile>
+  </mat-grid-list>
+<div class="stack">
+    <img src="assets/images/footer-top-bg.png" alt="">
+    <div class="Games">
+        <mat-grid-list cols="4"  gutterSize="30" class="responsive-grid">
+            <mat-grid-tile *ngFor="let tile of tiles3">
+                <img src="assets/images/{{tile.text}}.jpg" alt="Clickable Image" (click)="onImageClick('{{tile.text}}')" class="imagelist">
+            </mat-grid-tile>
+        </mat-grid-list>
+      </div>
+</div>
+  
+
+
+  <!-- Video Dev -->
+  <div class="Gta">
+    <video width="640" height="360" controls>
+    <source src="assets/images/gt.mp4" type="video/mp4">
+</video>
+
+<div class=" description">
+    <h1>Grand Theft Auto Gta VI</h1>
+    <p> Grand Theft Auto VI est un jeu vidéo d'action-aventure <br> développé par Rockstar Games prévu pour 2025 sur PlayStation 5 et Xbox Series.<br> Il s'agit du sixième jeu principal de la franchise,<br> après Grand Theft Auto VI,  et du dix-septième épisode au total,<br> après GTA Online</p>
+</div>
+
+
+  </div>
+  
+
+
+
+   

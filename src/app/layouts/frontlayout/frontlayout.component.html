@@ -1,0 +1,54 @@
+<nav class="navbar navbar-expand-lg">                
+    <div class="container">
+            <h2>Gaming <span>Zone</span></h2>
+
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-lg-auto">
+                <li class="nav-item">
+                    <a class="nav-link" routerLink="/home">Home</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" routerLink="/home">About us</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html#section_3">Our Menu</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html#section_5">Contact</a>
+                </li>
+            </ul>
+                        <!-- Search Bar -->
+
+            <form class="d-flex">
+                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-danger" type="submit">Search</button>
+            </form>
+
+            <div class="ms-lg-3">
+                <a class="btn custom-btn custom-border-btn" (click)="Login()">
+                    Login
+                    <i class="fas fa-user"></i>
+                </a>
+            </div>
+
+          
+        </div>
+    </div>
+</nav>
+
+
+ <router-outlet></router-outlet>
+
+ <div class="text-center text-white p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+    © 2023 Copyright:
+    <a class="text-white" routerLink="">GamingZone.com</a>
+  </div>
+  
+ 
